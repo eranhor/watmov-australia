@@ -1,0 +1,11 @@
+# Credentials
+credentials.json
+token.json
+
+# Downloaded files
+pdf-library/
+
+# Python
+__pycache__/
+*.pyc
+*.pyo
