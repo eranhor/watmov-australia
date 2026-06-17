@@ -177,48 +177,7 @@ export default function Contact() {
                     <Mail size={18} />
                   </div>
                   <div>
-                    <div style={{ fontSize: '12px', color: 'rgba(255,255,255,0.5)', marginBottom: '2px' }}>Inquiries / Budget / Billing</div>
-                    <div style={{ fontSize: '16px', fontWeight: 600 }}>info@watmov.com.au</div>
-                  </div>
-                </a>
-
-                <a
-                  href="mailto:info@watmov.com.au"
-                  style={{
-                    display: 'flex',
-                    alignItems: 'center',
-                    gap: '14px',
-                    padding: '16px 20px',
-                    background: 'rgba(255,255,255,0.06)',
-                    borderRadius: 'var(--radius)',
-                    border: '1px solid rgba(255,255,255,0.1)',
-                    color: 'white',
-                    textDecoration: 'none',
-                    transition: 'all var(--transition)',
-                  }}
-                  onMouseEnter={(e) => {
-                    (e.currentTarget as HTMLElement).style.background = 'rgba(255,255,255,0.1)';
-                    (e.currentTarget as HTMLElement).style.borderColor = 'var(--green)';
-                  }}
-                  onMouseLeave={(e) => {
-                    (e.currentTarget as HTMLElement).style.background = 'rgba(255,255,255,0.06)';
-                    (e.currentTarget as HTMLElement).style.borderColor = 'rgba(255,255,255,0.1)';
-                  }}
-                >
-                  <div style={{
-                    width: '40px',
-                    height: '40px',
-                    borderRadius: '50%',
-                    background: 'var(--green)',
-                    display: 'flex',
-                    alignItems: 'center',
-                    justifyContent: 'center',
-                    flexShrink: 0,
-                  }}>
-                    <Mail size={18} />
-                  </div>
-                  <div>
-                    <div style={{ fontSize: '12px', color: 'rgba(255,255,255,0.5)', marginBottom: '2px' }}>Design Team / Technical</div>
+                    <div style={{ fontSize: '12px', color: 'rgba(255,255,255,0.5)', marginBottom: '2px' }}>Email</div>
                     <div style={{ fontSize: '16px', fontWeight: 600 }}>info@watmov.com.au</div>
                   </div>
                 </a>
