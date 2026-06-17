@@ -125,13 +125,8 @@ export default function Footer() {
                   info@watmov.com.au
                 </a>
               </li>
-              <li>
-                <a href="mailto:design@watmov.com.au" style={{ fontSize: '14px', color: 'rgba(255,255,255,0.5)', textDecoration: 'none' }}>
-                  design@watmov.com.au
-                </a>
-              </li>
               <li style={{ fontSize: '14px', color: 'rgba(255,255,255,0.5)' }}>
-                Frenchs Forest, NSW, Australia
+                Sydney, NSW, Australia
               </li>
             </ul>
           </div>

@@ -183,7 +183,7 @@ export default function Contact() {
                 </a>
 
                 <a
-                  href="mailto:design@watmov.com.au"
+                  href="mailto:info@watmov.com.au"
                   style={{
                     display: 'flex',
                     alignItems: 'center',
@@ -219,7 +219,7 @@ export default function Contact() {
                   </div>
                   <div>
                     <div style={{ fontSize: '12px', color: 'rgba(255,255,255,0.5)', marginBottom: '2px' }}>Design Team / Technical</div>
-                    <div style={{ fontSize: '16px', fontWeight: 600 }}>design@watmov.com.au</div>
+                    <div style={{ fontSize: '16px', fontWeight: 600 }}>info@watmov.com.au</div>
                   </div>
                 </a>
 
@@ -249,7 +249,7 @@ export default function Contact() {
                   </div>
                   <div>
                     <div style={{ fontSize: '12px', color: 'rgba(255,255,255,0.5)', marginBottom: '2px' }}>Location</div>
-                    <div style={{ fontSize: '16px', fontWeight: 600 }}>Frenchs Forest, NSW, Australia</div>
+                    <div style={{ fontSize: '16px', fontWeight: 600 }}>Sydney, NSW, Australia</div>
                   </div>
                 </div>
               </div>
