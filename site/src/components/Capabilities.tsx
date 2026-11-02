@@ -66,7 +66,7 @@ export default function Capabilities() {
         <div className="section-header reveal">
           <h2>Core Infrastructure Capabilities</h2>
           <p>
-            Discuss your requirements with Amey so we can confirm which design and drafting tasks are suitable for our team.
+            Discuss your project requirements with our team to confirm the scope of design and drafting support.
           </p>
         </div>
 
