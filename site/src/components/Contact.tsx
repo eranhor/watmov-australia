@@ -95,8 +95,7 @@ export default function Contact() {
                 lineHeight: 1.65,
                 marginBottom: '40px',
               }}>
-                Send us a brief — even a PDF or a few lines — and we will respond with a clear proposal 
-                within one business day.
+                Send us your brief, available drawings and target dates. We will review the requirements with you before confirming scope, pricing and timing.
               </p>
 
               <div style={{ display: 'flex', flexDirection: 'column', gap: '20px', marginBottom: '32px' }}>
@@ -236,7 +235,7 @@ export default function Contact() {
                   <CheckCircle size={48} color="var(--green)" style={{ margin: '0 auto 20px' }} />
                   <h3 style={{ fontSize: '22px', marginBottom: '12px' }}>Message Sent</h3>
                   <p style={{ color: 'var(--text-secondary)', fontSize: '15px', lineHeight: 1.6 }}>
-                    Thanks for reaching out. We will get back to you within one business day.
+                    Thanks for reaching out. We will review your enquiry and get back to you.
                   </p>
                 </div>
               ) : (

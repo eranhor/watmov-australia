@@ -31,7 +31,7 @@ const services = [
   {
     icon: ClipboardCheck,
     title: 'As-Built Asset Capture (WAE)',
-    desc: 'Transforming field markups and redlines into highly accurate, asset-owner compliant Work-As-Executed records.',
+    desc: 'Preparing work-as-executed drawings from the field markups and records supplied by your team.',
   },
   {
     icon: Droplets,
@@ -66,7 +66,7 @@ export default function Capabilities() {
         <div className="section-header reveal">
           <h2>Core Infrastructure Capabilities</h2>
           <p>
-            Precision drafting and design support covering complex municipal, civil, and industrial water assets.
+            Discuss your requirements with Amey so we can confirm which design and drafting tasks are suitable for our team.
           </p>
         </div>
 
@@ -164,8 +164,7 @@ export default function Capabilities() {
             lineHeight: 1.6,
           }}>
             <strong style={{ color: 'var(--green-dark)' }}>Pain points we solve:</strong>{' '}
-            BOQ takeoffs and tender-stage plans are two of the biggest time sinks for in-house teams.
-            We handle them end-to-end so you can focus on design decisions.
+            We can assist with BOQ takeoffs and tender-stage drawings as part of an agreed scope.
           </div>
         </div>
       </div>

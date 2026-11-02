@@ -4,47 +4,47 @@ import { useReveal } from '../hooks/useReveal';
 
 const projects = [
   {
-    title: 'Trunk Main Pipeline Realignment',
-    sector: 'WaterNSW / Sydney Water Standard Codes',
-    image: '/samples/football-ground.jpg',
-    description: 'Pressure main realignment with hydrant tie-ins, valve assemblies, and service boundary coordination.',
+    "title": "Football Ground",
+    "sector": "Sports & Recreation",
+    "image": "/samples/football-ground.jpg",
+    "description": "Example drawing for a football ground."
   },
   {
-    title: 'Reticulation Network Upgrade',
-    sector: 'Regional Council / Local Water Authority',
-    image: '/samples/park-drainage.jpg',
-    description: 'Residential and commercial service connection upgrades with property boundary setback compliance.',
+    "title": "Park Drainage",
+    "sector": "Parks & Open Spaces",
+    "image": "/samples/park-drainage.jpg",
+    "description": "Example park drainage drawing."
   },
   {
-    title: 'Road Reserve Bulk Water Transfer',
-    sector: 'Council Road Corridor / Bulk Water Utility',
-    image: '/samples/median-road-landscape.jpg',
-    description: 'Long-section and cross-section design for bulk water pipeline within road reserve corridor.',
+    "title": "Road Median & Landscape",
+    "sector": "Roads & Landscapes",
+    "image": "/samples/median-road-landscape.jpg",
+    "description": "Example drawing set for a road median and surrounding landscape."
   },
   {
-    title: 'Pump Station \u0026 Rising Main Proposal',
-    sector: 'Sewerage Authority / Hydraulic Standard',
-    image: '/samples/pump-station.jpg',
-    description: 'Pump station layout, rising main alignment, elevation profiles, and highway crossing details.',
+    "title": "Pump Station & Alignment Proposal",
+    "sector": "Water Infrastructure",
+    "image": "/samples/pump-station.jpg",
+    "description": "Example pump station and pipeline alignment proposal."
   },
   {
-    title: 'Treatment Plant Process Layout',
-    sector: 'Water Treatment / Municipal Standard',
-    image: '/samples/drip-design.jpg',
-    description: 'Process flow arrangement, equipment layouts, and hydraulic profile drawings for treatment assets.',
+    "title": "Drip Irrigation",
+    "sector": "Irrigation",
+    "image": "/samples/drip-design.jpg",
+    "description": "Example drip irrigation layout."
   },
   {
-    title: 'Stormwater Retention Pond',
-    sector: 'Council Civil / Stormwater Code',
-    image: '/samples/pond-design.jpg',
-    description: 'Pond design with storage volumes, outlet structures, and civil 3D surface modelling.',
+    "title": "Pond Design",
+    "sector": "Water & Landscape",
+    "image": "/samples/pond-design.jpg",
+    "description": "Example pond design drawing."
   },
   {
-    title: 'Bulk Water Transfer Pipeline',
-    sector: 'Regional Water Utility / Pipeline Standard',
-    image: '/samples/bulk-water-pipeline.jpg',
-    description: 'Major bulk water transfer pipeline — plan, profile, and network hydraulics documentation.',
-  },
+    "title": "Bulk Water Pipeline",
+    "sector": "Water Infrastructure",
+    "image": "/samples/bulk-water-pipeline.jpg",
+    "description": "Example bulk water pipeline drawing."
+  }
 ];
 
 function ProjectCard({ project, index }: { project: typeof projects[0]; index: number }) {
@@ -57,7 +57,7 @@ function ProjectCard({ project, index }: { project: typeof projects[0]; index: n
         border: '1px solid var(--border)',
         overflow: 'hidden',
         transition: 'all var(--transition)',
-        cursor: 'pointer',
+        cursor: 'default',
       }}
       onMouseEnter={(e) => {
         const el = e.currentTarget;
@@ -186,9 +186,9 @@ export default function SampleWork() {
     <section id="work" ref={sectionRef} className="section section-alt">
       <div className="container">
         <div className="section-header reveal">
-          <h2>Proven Infrastructure Delivery</h2>
+          <h2>Examples of Our Work</h2>
           <p>
-            Explore a selection of precise technical drawings executed to exact asset-owner frameworks.
+            Selected previews of client project drawings. To respect client confidentiality, full-resolution project files are not available on this website. We adapt each assignment to the client’s brief and drawing requirements.
           </p>
         </div>
 

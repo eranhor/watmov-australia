@@ -5,34 +5,27 @@ import { FileCode, Box, Building2, FolderKanban } from 'lucide-react';
 const tools = [
   {
     icon: FileCode,
-    title: 'Autodesk AutoCAD',
-    desc: 'Precise 2D production detailing, complex layering standards, and traditional construction documentation sets.',
+    title: "CAD Files",
+    desc: "We agree CAD file formats and versions before starting so that you can use the delivered drawings.",
   },
   {
     icon: Box,
-    title: 'AutoCAD Civil 3D',
-    desc: 'Advanced surface modeling, alignment profiles, corridors, and dynamic gravity/pressure pipe network detailing.',
+    title: "Templates and Layers",
+    desc: "We adapt to the drawing templates, layer conventions and title blocks agreed with your team.",
   },
   {
     icon: Building2,
-    title: 'BIM & Revit Integration',
-    desc: 'Intelligent 3D parametric modeling, structural coordination, and clash checking for complex pump and treatment facilities.',
+    title: "Specialist Software Requirements",
+    desc: "Tell us about any modelling or specialist software requirements so we can confirm suitability before quoting.",
   },
   {
     icon: FolderKanban,
-    title: 'Document Control Systems',
-    desc: 'Seamless integration with your mandatory document common data environments (CDE) like ProjectWise, Aconex, or regional asset management portals.',
+    title: "Document Exchange",
+    desc: "We agree file naming, revision tracking and a suitable way to exchange drawings and review comments.",
   },
 ];
 
-const disciplines = [
-  'Hydraulics',
-  'Civil',
-  'Pumping Station',
-  'Structural (RCC/Reinforcement)',
-  'Mechanical',
-  'Electrical',
-];
+const disciplines = ['Irrigation', 'Drainage', 'Pump Stations', 'Pipelines', 'Drawing Production'];
 
 export default function Tools() {
   const sectionRef = useRef<HTMLElement>(null);
@@ -43,9 +36,9 @@ export default function Tools() {
     <section id="tools" ref={sectionRef} className="section section-alt">
       <div className="container">
         <div className="section-header reveal">
-          <h2>Native Software Integration</h2>
+          <h2>Working With Your Drawing Standards</h2>
           <p>
-            We operate natively within your engineering software environments to ensure absolute data fidelity and asset-owner compliance.
+            We confirm the tools, file formats and document requirements for each assignment.
           </p>
         </div>
 
@@ -90,7 +83,7 @@ export default function Tools() {
             marginBottom: '20px',
             textAlign: 'center',
           }}>
-            Disciplines
+            Areas of Support
           </h3>
           <div style={{
             display: 'flex',

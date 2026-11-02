@@ -6,32 +6,32 @@ const steps = [
   {
     num: '01',
     icon: FileSearch,
-    title: 'Scope Parsing & CAD Standard Mapping',
-    desc: 'Before drawing a single line, we map out the specific asset owner codes, layering conventions, sheet templates, and title block requirements.',
+    title: "Brief and Drawing Requirements",
+    desc: "We review your inputs and agree the scope, templates, CAD conventions, deliverables and target dates.",
   },
   {
     num: '02',
     icon: DraftingCompass,
-    title: 'Core Layout & Draft Execution',
-    desc: 'Our technical specialists execute the layout, setting up parametric constraints, precise geometry, and structural foundations.',
+    title: "Draft Preparation",
+    desc: "Our team prepares drawings from the agreed brief, layouts and markups, raising questions where inputs need clarification.",
   },
   {
     num: '03',
     icon: Users,
-    title: 'Internal Peer & Technical Review',
-    desc: 'Every deliverable undergoes a rigorous internal engineering check to audit geometric accuracy, clear annotations, and standard compliance.',
+    title: "Technical Review",
+    desc: "Amey leads technical delivery and coordinates the review required for the agreed scope.",
   },
   {
     num: '04',
     icon: ClipboardCheck,
-    title: 'Document Control Validation',
-    desc: 'The final check ensures metadata tracking, drawing register consistency, and naming conventions match your exact document control protocols.',
+    title: "Client Review and Revisions",
+    desc: "You review the draft against your requirements. We clarify comments and agree any changes to scope or timing.",
   },
   {
     num: '05',
     icon: Send,
-    title: 'Frictionless Delivery & Asset Handover',
-    desc: 'Clean CAD source files and high-resolution digital sets are deployed directly to your designated local server environment or shared folder setup.',
+    title: "Final Delivery",
+    desc: "We provide the agreed CAD and PDF deliverables through the file-sharing method arranged with you.",
   },
 ];
 
@@ -50,10 +50,9 @@ export default function Process() {
     <section id="process" ref={sectionRef} className="section section-alt">
       <div className="container">
         <div className="section-header reveal">
-          <h2>Our Multi-Tier QA Blueprint</h2>
+          <h2>How We Work With You</h2>
           <p>
-            A transparent, five-stage production pipeline designed to keep deliverables airtight 
-            and aligned to your standards.
+            A working process adapted to your needs, from the initial brief through review and final delivery.
           </p>
         </div>
 

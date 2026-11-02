@@ -5,18 +5,18 @@ import { Zap, ShieldCheck, Workflow } from 'lucide-react';
 const values = [
   {
     icon: Zap,
-    title: 'Instant Capacity Relief',
-    desc: 'Scale your drafting output up or down instantly. Stop turning down major design tenders or stalling active infrastructure projects due to local engineering talent shortages.',
+    title: 'Additional Drafting Capacity',
+    desc: 'Discuss your workload with us. We agree the scope, available capacity and delivery dates before starting.',
   },
   {
     icon: ShieldCheck,
-    title: 'Asset-Owner Compliance',
-    desc: 'We design and draft strictly to local water authority, municipal, and regional specifications—minimizing standard markup cycles and accelerating your engineering approvals.',
+    title: 'Your Project Requirements',
+    desc: 'We work to the project specifications and drawing requirements agreed with you, including relevant council or asset-owner requirements supplied for the assignment.',
   },
   {
     icon: Workflow,
-    title: 'Seamless Workflow Integration',
-    desc: 'Zero friction. We rapidly adapt to your exact CAD layers, corporate drafting standards, and internal document control systems from day one, acting as a natural extension of your office.',
+    title: 'Adapted to Your Workflow',
+    desc: 'We agree your CAD layers, templates, title blocks and review process upfront, then refine the workflow with your feedback.',
   },
 ];
 
@@ -30,7 +30,7 @@ export default function About() {
         <div className="section-header reveal">
           <h2>Engineering Support, Built to Scale</h2>
           <p>
-            Don't let internal resource constraints dictate your project capacity. We plug seamlessly into your existing workflows.
+            Eran manages Australian operations and client relationships. Amey, our chief engineer, leads technical delivery with our team in India.
           </p>
         </div>
 
@@ -70,7 +70,7 @@ export default function About() {
             <svg width="16" height="16" viewBox="0 0 24 24" fill="none" stroke="var(--blue)" strokeWidth="2">
               <path d="M12 22s8-4 8-10V5l-8-3-8 3v7c0 6 8 10 8 10z"/>
             </svg>
-            All engineering design work is prepared for certification and sign-off by appropriately registered Australian professionals. Watmov provides drafting and design support under the direction and oversight of the client's responsible licensed practitioner.
+            The scope of drafting, design input, review and any required certification or sign-off is agreed for each project.
           </div>
         </div>
       </div>

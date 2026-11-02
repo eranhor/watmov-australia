@@ -5,38 +5,38 @@ import { ClipboardCheck, Timer, GraduationCap, Receipt, Monitor, Users } from 'l
 const advantages = [
   {
     icon: ClipboardCheck,
-    title: 'Rigorous Quality Assurance',
-    desc: 'Multi-tier internal review processes ensure that every schematic, long-section, layout, and cross-section is verified for geometric and standard compliance before it ever reaches your desk.',
+    title: "Technical Delivery",
+    desc: "Amey, our chief engineer, leads technical delivery. Review requirements and responsibilities are agreed for each assignment.",
     highlight: true,
   },
   {
     icon: Timer,
-    title: 'Rapid Turnaround Times',
-    desc: 'Optimized, dedicated resource allocation means your urgent project timelines stay firmly on track, even under compressed delivery schedules or unexpected design modifications.',
+    title: "Agreed Delivery Dates",
+    desc: "We review the brief and current capacity before agreeing delivery dates, and discuss the impact of changes as they arise.",
     highlight: false,
   },
   {
     icon: GraduationCap,
-    title: 'Deep Sector Expertise',
-    desc: 'A highly specialized, exclusive focus on water infrastructure assets—spanning pump station configurations, complex pipeline alignments, treatment plant layouts, and reticulation networks.',
+    title: "Water Engineering Support",
+    desc: "Our work includes irrigation, drainage, pump station and pipeline drawings. We assess the technical requirements of each brief before accepting it.",
     highlight: false,
   },
   {
     icon: Receipt,
-    title: 'Predictable Costing Models',
-    desc: 'No hidden variations, administrative overheads, or surprise billing. Choose between transparent fixed-scope project estimates or scalable, dedicated resource agreements.',
+    title: "Clear Scope and Pricing",
+    desc: "We provide an estimate against an agreed scope and discuss additional work or revisions that change that scope.",
     highlight: true,
   },
   {
     icon: Monitor,
-    title: 'Modern CAD Infrastructure',
-    desc: 'Utilizing industry-standard design platforms paired with strict data security and backup protocols to keep your proprietary project files safe, synchronized, and audit-ready.',
+    title: "CAD Deliverables",
+    desc: "We agree file formats, drawing conventions and the method of exchanging project files with your team.",
     highlight: false,
   },
   {
     icon: Users,
-    title: 'Long-Term Continuity',
-    desc: 'We deliberately retain asset and project-specific knowledge. The technical specialists assigned to your initial project are retained to support your future iterations and upcoming tenders.',
+    title: "An Ongoing Working Relationship",
+    desc: "As we work together, we learn your preferred formats and requirements to support future assignments.",
     highlight: false,
   },
 ];
@@ -64,7 +64,7 @@ export default function Advantage() {
           </div>
           <h2>Engineered for Technical Reliability</h2>
           <p>
-            A multi-layered approach to quality, compliance, and delivery predictability.
+            Technical support with clear responsibilities, agreed deliverables and direct communication.
           </p>
         </div>
 

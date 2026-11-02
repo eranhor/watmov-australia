@@ -101,8 +101,7 @@ export default function Hero() {
           maxWidth: '720px',
           margin: '0 auto 40px',
         }}>
-          Eliminate capacity bottlenecks. We integrate directly with your engineering teams to deliver
-          compliant, asset-owner-ready designs on time and within budget.
+          We support your team with design and drafting, adapting to your brief, drawing standards and review process. Scope, pricing and delivery dates are agreed for each project.
         </p>
 
         <div style={{ display: 'flex', gap: '16px', justifyContent: 'center', flexWrap: 'wrap', marginBottom: '24px' }}>
@@ -130,7 +129,7 @@ export default function Hero() {
           marginBottom: '56px',
         }}>
           <span>⚡</span>
-          <span>Built to Local Utility & Regional Council Standards</span>
+          <span>Working to Your Agreed Project Requirements</span>
         </div>
       </div>
 
