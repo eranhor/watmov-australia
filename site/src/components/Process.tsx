@@ -19,7 +19,7 @@ const steps = [
     num: '03',
     icon: Users,
     title: "Technical Review",
-    desc: "Amey leads technical delivery and coordinates the review required for the agreed scope.",
+    desc: "Our engineering team coordinates technical review against the agreed scope and project requirements.",
   },
   {
     num: '04',

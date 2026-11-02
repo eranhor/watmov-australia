@@ -30,7 +30,7 @@ export default function About() {
         <div className="section-header reveal">
           <h2>Engineering Support, Built to Scale</h2>
           <p>
-            Eran manages Australian operations and client relationships. Amey, our chief engineer, leads technical delivery with our team in India.
+            Watmov Australia provides design and drafting support for consultants and contractors, with Australian client coordination and technical delivery from our team in India.
           </p>
         </div>
 

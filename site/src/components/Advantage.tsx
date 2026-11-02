@@ -6,7 +6,7 @@ const advantages = [
   {
     icon: ClipboardCheck,
     title: "Technical Delivery",
-    desc: "Amey, our chief engineer, leads technical delivery. Review requirements and responsibilities are agreed for each assignment.",
+    desc: "Our engineering team manages technical delivery, with review requirements and responsibilities agreed for each assignment.",
     highlight: true,
   },
   {
