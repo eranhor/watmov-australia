@@ -26,7 +26,7 @@ const services = [
   {
     icon: Mountain,
     title: 'Civil Works & Site Grading',
-    desc: 'Earthworks modeling, access road long-sections, stormwater drainage plans, and site layout plans.',
+    desc: 'Earthworks modelling, access road long-sections, stormwater drainage plans, and site layout plans.',
   },
   {
     icon: ClipboardCheck,
@@ -40,7 +40,7 @@ const services = [
   },
   {
     icon: FileStack,
-    title: 'Standard Drawing Customization',
+    title: 'Standard Drawing Customisation',
     desc: 'Adapting regional utility standard templates directly into project-specific construction documentation.',
   },
 ];
